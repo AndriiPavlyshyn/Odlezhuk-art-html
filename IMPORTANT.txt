@@ -1,0 +1,1 @@
+RUN > npm cache clean > than > npm install

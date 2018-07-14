@@ -1,0 +1,118 @@
+@import "smart-grid.sass"
+
+@media screen and (max-width: 780px) and (orientation:landscape)
+	.menu-wrapper
+		width: 600px
+		-webkit-transform: translate3d(-600px,0,0)
+		transform: translate3d(-600px,0,0)
+
+	.menu__li,
+	.menu__li .menu__a
+		-webkit-transition: -webkit-transform 0s 0.4s
+		transition: transform 0s 0.4s
+		-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1)
+		transition-timing-function: cubic-bezier(0.7,0,0.3,1)
+
+	.menu__li .menu__a:first-child
+		-webkit-transform: translate3d(0,0px,0)
+		transform: translate3d(0,0px,0)
+
+	.menu__li .menu__a:nth-child(2)
+		-webkit-transform: translate3d(0,10px,0)
+		transform: translate3d(0,10px,0)
+
+	.menu__li .menu__a:nth-child(3)
+		-webkit-transform: translate3d(0,20px,0)
+		transform: translate3d(0,20px,0)
+
+	.menu__li .menu__a:nth-child(4)
+		-webkit-transform: translate3d(0,30px,0)
+		transform: translate3d(0,30px,0)
+
+	.menu__li .menu__a:nth-child(5)
+		-webkit-transform: translate3d(0,40px,0)
+		transform: translate3d(0,40px,0)
+
+	.menu__li .menu__a:nth-child(6)
+		-webkit-transform: translate3d(0,50px,0)
+		transform: translate3d(0,50px,0)
+
+	.menu__li .menu__a:nth-child(7)
+		-webkit-transform: translate3d(0,60px,0)
+		transform: translate3d(0,60px,0)
+
+	.menu__li--social-icon-first,
+	.menu__li--social-icon-second,
+	.menu__li--social-icon-third
+		position: absolute
+		right: 0
+		top: 0
+
+	.menu__list
+		width: 50%
+
+	.menu--social
+		margin-top: 0
+
+	.menu__li
+		width: 100%
+
+	.menu__li--social-icon-third
+		margin-top: 50px
+
+	.menu__li--social-icon-second
+		margin-top: 100px
+
+	.menu--social
+		width: 50%
+
+	.menu
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: row
+
+@media screen and (max-width: 480px)
+
+	.menu__li,
+	.menu__li .menu__a
+		-webkit-transition: -webkit-transform 0s 0.4s
+		transition: transform 0s 0.4s
+		-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1)
+		transition-timing-function: cubic-bezier(0.7,0,0.3,1)
+
+	.menu__li .menu__a:first-child
+		-webkit-transform: translate3d(0,0px,0)
+		transform: translate3d(0,0px,0)
+
+	.menu__li .menu__a:nth-child(2)
+		-webkit-transform: translate3d(0,10px,0)
+		transform: translate3d(0,10px,0)
+
+	.menu__li .menu__a:nth-child(3)
+		-webkit-transform: translate3d(0,20px,0)
+		transform: translate3d(0,20px,0)
+
+	.menu__li .menu__a:nth-child(4)
+		-webkit-transform: translate3d(0,30px,0)
+		transform: translate3d(0,30px,0)
+
+	.menu__li .menu__a:nth-child(5)
+		-webkit-transform: translate3d(0,40px,0)
+		transform: translate3d(0,40px,0)
+
+	.menu__li .menu__a:nth-child(6)
+		-webkit-transform: translate3d(0,50px,0)
+		transform: translate3d(0,50px,0)
+
+	.menu__li .menu__a:nth-child(7)
+		-webkit-transform: translate3d(0,60px,0)
+		transform: translate3d(0,60px,0)
+
+	.gamma-nav span.gamma-next
+		right: 20px
+
+	.header--large__h1
+		font-size: 1.5em

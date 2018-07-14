@@ -1,0 +1,158 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+    margin-padding: 0;
+    margin-clear: both;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body,
+input,
+select,
+textarea {
+  color: #121212;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 15pt;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  line-height: 1.65em;
+  background: #e4e4e4; }
+
+/* ПЕРЕНЕСТИ В ФАЙЛ З АДАПТИВОМ */
+@media screen and (max-width: 1680px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 13pt; } }
+
+@media screen and (max-width: 1280px) {
+  body,
+  input,
+  select,
+  textarea {
+    font-size: 12pt; } }
+
+@media screen and (max-width: 736px) {
+  body,
+  input,
+  select,
+  textarea {
+    letter-spacing: 0.0375em;
+    font-size: 11pt; }
+  h2 {
+    font-size: 1.1em;
+    line-height: 1.65em; }
+  h3 {
+    font-size: 1em;
+    line-height: 1.65em; } }
+
+/* / */
+body,
+html {
+  margin: 0;
+    margin-padding: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #121212;
+  font-weight: 800;
+  letter-spacing: 0.225em;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase; }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  text-decoration: none; }
+
+h2 {
+  font-size: 1.35em;
+  line-height: 1.75em; }
+
+h3 {
+  font-size: 1.15em;
+  line-height: 1.75em; }
+
+h4 {
+  font-size: 1em;
+  line-height: 1.5em; }
+
+h5 {
+  font-size: 0.8em;
+  line-height: 1.5em; }
+
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em; }
+
+a {
+  -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  transition: color 0.2s ease, border-bottom-color 0.2s ease;
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  color: #d4d4d4; }
+
+strong,
+b {
+  color: #fff;
+  font-weight: 600; }
+
+em,
+i {
+  font-style: italic; }
+
+img {
+  height: auto; }
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em; }
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em; }
+
+hr {
+  border: 0;
+  border-bottom: solid 2px #363636;
+  margin: 3em 0; }
+
+blockquote {
+  border-left: solid 4px #fff;
+  font-style: italic;
+  margin: 0 0 2em 0;
+  padding: 0.5em 0 0.5em 2em; }
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  margin: 0 0 2em 0; }
+
+pre code {
+  display: block;
+  line-height: 1.75em;
+  padding: 1em 1.5em;
+  overflow-x: auto; }
