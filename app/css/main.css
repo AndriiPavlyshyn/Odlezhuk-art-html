@@ -788,6 +788,9 @@ a {
   position: relative;
   background: #fff; }
 
+.page-center {
+  padding-top: 95px; }
+
 .content::before {
   position: absolute;
   top: 0;
@@ -862,6 +865,9 @@ a {
 /* Useful class */
 .overflow-none {
   overflow: hidden !important; }
+
+.vp-portfolio__filter-wrap {
+  display: none !important; }
 
 @media screen and (max-width: 780px) and (orientation: landscape) {
   .menu-wrapper {

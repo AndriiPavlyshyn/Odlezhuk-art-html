@@ -20,8 +20,8 @@
 *
 	outline: none
 
-*, 
-*:before, 
+*,
+*:before,
 *:after
 	margin: 0
 	padding: 0
@@ -35,9 +35,9 @@
 	width: 100%
 	position: relative
 
-html, 
-body, 
-.page-wrapper, 
+html,
+body,
+.page-wrapper,
 .content-wrapper
 	width: 100%
 	height: 100%
@@ -119,7 +119,7 @@ body,
 		transition: 0.5s
 
 .js-close-menu::before,
-.js-close-menu::after 
+.js-close-menu::after
 	content: ''
 	position: absolute
 	width: 1px
@@ -347,7 +347,7 @@ header
 
 /* Large header */
 
-.header--large 
+.header--large
 	height: 99px
 	display: -webkit-flex
 	display: -moz-flex
@@ -443,7 +443,7 @@ header
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"
 	filter: alpha(opacity=80)
 	opacity: 1
- 
+
 .gamma-description:before
 	content: ''
 	height: 100%
@@ -647,7 +647,7 @@ html
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
-.clearfix:after 
+.clearfix:after
 	content: " "
 	display: table
 
@@ -730,6 +730,9 @@ a
 	position: relative
 	background: #fff
 
+.page-center
+	padding-top: 95px
+
 .content::before
 	position: absolute
 	top: 0
@@ -807,5 +810,8 @@ a
 
 .overflow-none
 	overflow: hidden !important
+
+.vp-portfolio__filter-wrap
+	display: none !important
 
 @import "_media.sass"
